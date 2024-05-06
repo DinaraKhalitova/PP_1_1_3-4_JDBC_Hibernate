@@ -20,7 +20,6 @@ public class Util {
     private static final String DB_LOGIN = "root";
     private static final String DB_PASSWORD = "34386789009d";
     public static SessionFactory sessionFactory;
-    private static StandardServiceRegistry registry;
 
 
     public static Connection getConnection() {
