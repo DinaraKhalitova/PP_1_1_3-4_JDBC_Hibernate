@@ -12,23 +12,23 @@ import static jm.task.core.jdbc.util.Util.sessionFactory;
 
 public class UserDaoHibernateImpl implements UserDao {
 
-    SessionFactory factory = Util.getSessionFactory();
-    Transaction transaction = null;
+    private final SessionFactory factory = Util.getSessionFactory();
+    private static Transaction transaction = null;
 
     public UserDaoHibernateImpl() {
 
     }
 
-
     @Override
     public void createUsersTable() {
         try (Session session = factory.openSession()) {
             session.beginTransaction();
-            session.createQuery("CREATE TABLE IF NOT EXISTS userbd.users (" +
-                    "id INT PRIMARY KEY NOT NULL AUTO_INCREMENT, " +
-                    "name VARCHAR(30), " +
-                    "lastname VARCHAR(30), " +
-                    "age TINYINT)").executeUpdate();
+            session.createNativeQuery("CREATE TABLE IF NOT EXISTS users (" +
+                    "    id BIGINT PRIMARY KEY AUTO_INCREMENT," +
+                    "    name VARCHAR(255) NOT NULL," +
+                    "    lastname VARCHAR(255) NOT NULL," +
+                    "    age INT NOT NULL" +
+                    ")").executeUpdate();
             session.getTransaction().commit();
 
         } catch (Exception e) {
@@ -42,14 +42,13 @@ public class UserDaoHibernateImpl implements UserDao {
     public void dropUsersTable() {
         try (Session session = factory.openSession()) {
             session.beginTransaction();
-            session.createQuery("delete from User").executeUpdate();
+            session.createNativeQuery("DROP TABLE users").executeUpdate();
             session.getTransaction().commit();
         } catch (Exception e) {
             if (transaction != null) {
                 transaction.rollback();
             }
         }
-
     }
 
     @Override
@@ -94,7 +93,7 @@ public class UserDaoHibernateImpl implements UserDao {
     public void cleanUsersTable() {
         try (Session session = factory.openSession()) {
             session.beginTransaction();
-            session.createQuery("delete from User").executeUpdate();
+            session.createNativeQuery("DELETE FROM users").executeUpdate();
             session.getTransaction().commit();
         } catch (Exception e) {
             if (transaction != null) {

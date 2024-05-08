@@ -1,23 +1,21 @@
 
 ¢
-java:S1104"ZMake sessionFactory a static final constant or non-public and provide accessors if needed.(à”üÿÿÿÿÿ8¯Ãÿğô1J$2c7a0067-9795-4aee-8808-40fa3a5443ea
+java:S1104"ZMake sessionFactory a static final constant or non-public and provide accessors if needed.(à”üÿÿÿÿÿ8¯Ãÿğô1J$3d33ab5e-2aa6-46d9-9702-a6dc632e4989
 |
-java:S1444"4Make this "public static sessionFactory" field final(à”üÿÿÿÿÿ8±Ãÿğô1J$1dbdb63c-fbd6-4eda-8dcc-9d840076d696
+java:S1444"4Make this "public static sessionFactory" field final(à”üÿÿÿÿÿ8±Ãÿğô1J$0a63e7dd-65e5-44f4-8d60-4da9460222be
 }
-java:S1118":Add a private constructor to hide the implicit public one.(×¼­Æ8óÁÂïô1J$3f3d2871-8c0b-4e43-bc5f-8cd21484d05d
+java:S1118":Add a private constructor to hide the implicit public one.(×¼­Æ8óÁÂïô1J$fd2e4ed8-d9ed-4438-bfaf-93cdf2b73f22
 ~
-java:S6437"6Revoke and change this password, as it is compromised.(Ûóëúÿÿÿÿ8öÁÂïô1J$6554ac32-f323-43ec-a62d-7dd82cba0218
-m	java:S106"+Replace this use of System.out by a logger.(ö¥û©8÷ÁÂïô1J$fba85cbe-874c-4b10-9f01-bac1a00f3986
-m	java:S106""+Replace this use of System.out by a logger.(ë­ûì8÷ÁÂïô1J$c8862314-3f16-4340-8dbe-2a1d525de6e5
+java:S6437"6Revoke and change this password, as it is compromised.(Ûóëúÿÿÿÿ8öÁÂïô1J$e556a9cc-bcf5-46df-a988-fd9567da16cf
+m	java:S106"+Replace this use of System.out by a logger.(ö¥û©8÷ÁÂïô1J$94575edd-2b22-4cf0-bc0c-e9b7490544a4
+m	java:S106!"+Replace this use of System.out by a logger.(ë­ûì8÷ÁÂïô1J$8759936f-0b79-4cf3-aeec-517dc2f66ca6
 
-java:S3252."JUse static access with "org.hibernate.cfg.AvailableSettings" for "DRIVER".(Æ²âô8†ÂÂïô1J$09f609f5-1855-4cea-b1b4-d1a59463f664
+java:S3252-"JUse static access with "org.hibernate.cfg.AvailableSettings" for "DRIVER".(Æ²âô8†ÂÂïô1J$1cd2fa94-ba2a-446e-987a-3aa875bb3fd8
 Š
-java:S3252/"GUse static access with "org.hibernate.cfg.AvailableSettings" for "URL".(üÖ²¥8‡ÂÂïô1J$31867f62-6375-41c6-9954-2b18a42c9a39
+java:S3252."GUse static access with "org.hibernate.cfg.AvailableSettings" for "URL".(üÖ²¥8‡ÂÂïô1J$fc6d5424-1baa-4c41-9ddc-c8b1b558eff0
 ‹
-java:S32520"HUse static access with "org.hibernate.cfg.AvailableSettings" for "USER".(ÕÄß8‡ÂÂïô1J$c1af6925-05bc-4824-9a97-059d7e431429
+java:S3252/"HUse static access with "org.hibernate.cfg.AvailableSettings" for "USER".(ÕÄß8‡ÂÂïô1J$01a09cca-2c5f-4de5-a0c0-7d51dd87a03c
 
-java:S32521"HUse static access with "org.hibernate.cfg.AvailableSettings" for "PASS".(›êŒòÿÿÿÿÿ8‡ÂÂïô1J$0384b9a0-7984-4aca-86c7-552b9093dfaf
+java:S32520"HUse static access with "org.hibernate.cfg.AvailableSettings" for "PASS".(›êŒòÿÿÿÿÿ8‡ÂÂïô1J$5585b9b6-c345-4d84-b19e-c7cd333859b7
 “
-java:S32522"KUse static access with "org.hibernate.cfg.AvailableSettings" for "DIALECT".(á¶ Óıÿÿÿÿ8‡ÂÂïô1J$e0e4ec89-2720-430f-ab5b-877fbef6454a
-“
-java:S1128"PRemove this unused import 'org.hibernate.boot.registry.StandardServiceRegistry'.(Û‹ÜŒ8Š„ãòô1J$b80ecadf-14e4-40b3-bf81-768a14bcd004
+java:S32521"KUse static access with "org.hibernate.cfg.AvailableSettings" for "DIALECT".(á¶ Óıÿÿÿÿ8‡ÂÂïô1J$6f1fb85e-c618-4af8-b57c-66c6abec140c

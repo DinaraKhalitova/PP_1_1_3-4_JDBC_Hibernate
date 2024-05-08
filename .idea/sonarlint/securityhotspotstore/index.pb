@@ -21,8 +21,6 @@ h
 	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
 m
 =src/main/java/jm/task/core/jdbc/dao/UserDaoHibernateImpl.java,f/6/f61bc8cc983455b547d554cfd3bddb383ad8d3bd
-^
-.src/main/java/jm/task/core/jdbc/dao/Hello.java,9/2/9207e6a7d69f737302221ba02e72e357731938e4
 S
 #.idea/sonarlint/issuestore/index.pb,9/f/9fe84ebb15faf917b7def6236dba604453cc61e0
 ]
@@ -31,8 +29,6 @@ S
 Q.idea/sonarlint/securityhotspotstore/8/8/88a9255124c95bdc913197c120a8d560edc59c8e,9/0/909762385fc6eb20f922a91c6865741308b57f2c
 Å
 Q.idea/sonarlint/securityhotspotstore/f/6/f61bc8cc983455b547d554cfd3bddb383ad8d3bd,1/a/1a9bd805fd2847f354f8966e072ce86dfdae542e
-Å
-Q.idea/sonarlint/securityhotspotstore/9/2/9207e6a7d69f737302221ba02e72e357731938e4,4/a/4a61d4edf8e8351ec52aeffd18d5bdf2318b5573
 <
 TaskJDBC.iml,6/8/6874deaebaee5ac83785b74ff8f5ac55a213ba3f
 w
